@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h2>Contact Us!</h2><br>
+    <form action="mailto:n.latham@enconfluence.com?subject=feedback" method="post" enctype="text/plain">
+
+      <label for="search-site">Search this site:</label>
+      <input type="search" name="" value="Search">
+      <button>Search</button>
+      <br>
+      <label>Name: </label>
+      <input type="text" name="" value="">
+      <br>
+      <label>Password (8 characters minimum):</label>
+      <input type="password" name="" minlength="8"><br>
+
+
+      <input type="radio" name="male" value="male">
+      <label for"male">male</label><br>
+
+      <input type="radio" name="female" value="female">
+      <label for="female">female</label><br>
+
+      <input type="radio" name="other" value="other">
+      <label for"other">other</label><br>
+
+        <br />
+        <p>
+          Happiness with our Service
+        <br>
+        <input type="range" name="happiness" min="0" max="100" />
+        <br />
+        <label>Happiness Scale, right is 100</label>
+        </p>
+      <p>
+
+
+      <label>Send us a file:</label>
+        </p>
+      <input type="file" name="File" accept="image/jpeg, image/png, image/*, .pdf, .doc">
+      <input />
+      <br>
+      <label for="url">Enter a URL, please include https:// like below</label>
+      <br>
+      <input type="url" name="url" placeholder="https://example.com" size="40" autocomplete required>
+
+      <table>
+        <tr>
+          <td><input type="reset" value="Reset">
+          </td>
+          <td><input type="submit" value="Submit">
+          </td>
+          <td>
+            or
+            </td>
+          <td>
+            <input type="submit" value="Sign In">
+            </td>
+          </tr>
+
+        </table>
+
+        <input type="button" value="Add to Favourites">
+        <br>
+        <label for="email">Enter your enConfluence email:</label>
+        <input type="email" pattern="+@enconfluence.com size="30" required>
+        <br>
+        <p>
+          Send me your informative newsletter!
+          </p>
+          <input type="checkbox" checked>
+          <label for="Yes">Yes</label>
+          <input type="checkbox" name="No">
+          <label for="No">No</label>
+          <br>
+          <label for="start">Start Month:</label>
+          <input type="month" id="start" name="start" value="2019-8" min="2015-1">
+          <br>
+          <label for="checkin">Checkin</label>
+          <input type="date" id="checkin" name="Checkin" value="2019-08-27" min="2018-01-01" max="2020-06-01"
+
+          <hr>
+          <h3>Send Us a Message</h3><br>
+
+          <label for="">Name</label><br>
+          <input type="text" name="Customer Name" value="Your Name"><br>
+
+          <label for="">Email</label><br>
+          <input type="email" name="" value="your email address"><br>
+
+          <label for="">Message:</label><br>
+          <textarea name="Message " rows="15" cols="30"></textarea><br>
+
+          <button type="submit">Send your message</button>
+
+
+
+      </form>
+  </body>
+</html>
